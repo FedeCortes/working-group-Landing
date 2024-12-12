@@ -182,7 +182,7 @@
             <v-col cols="8">
               <v-card-title>Pisos industriales</v-card-title>
               <v-card-text>
-                Diseñamos y construimos pisos industriales de alta resistencia, ideales para fábricas, depósitos y talleres. Garantizamos durabilidad, resistencia al desgaste y un acabado profesional que soporta las exigencias del uso intensivo.
+                Diseñamos y construimos pisos industriales de alta resistencia, ideales para fábricas, depósitos y talleres.
               </v-card-text>
             </v-col>
           </v-row>
@@ -205,7 +205,7 @@
             <v-col cols="8">
               <v-card-title>Pisos epóxicos</v-card-title>
               <v-card-text>
-                Instalamos pisos epóxicos con terminaciones modernas, ideales para hogares, oficinas y comercios. Ofrecen alta resistencia, fácil mantenimiento y un acabado brillante que realza cualquier espacio.
+                Instalamos pisos epóxicos con terminaciones modernas, ideales para hogares, oficinas y comercios.
               </v-card-text>
             </v-col>
           </v-row>
