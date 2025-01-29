@@ -10,7 +10,7 @@
           Tenemos más de 32 años de experiencia, hacemos realidad tus ideas y te garantizamos un resultado que cumpla con lo que necesitás.
         </p>
         <p class="about-us-text">
-          Estamos ubicados en Zona Norte, Don Torcuato. 
+          Estamos ubicados en Zona Norte. 
         </p>
 
         <p class="about-us-text">

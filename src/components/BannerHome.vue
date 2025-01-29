@@ -4,7 +4,7 @@
         <div class="banner-text">
           <h1>Working Group</h1>
           <h2>Especialistas en Construcción y Diseño</h2>
-          <h3>Estamos en Don Torcuato</h3>
+          <h3>Estamos en Zona Norte</h3>
         </div>
       </v-row>
     </v-container>
