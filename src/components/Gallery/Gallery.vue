@@ -11,14 +11,14 @@
 import ImageCarousel from "./ImageCarousel.vue";
 
 const galleryImages = [
-  { src: "@/assets/proyecto3.jpeg", alt: "Proyecto 3" },
-  { src: "@/assets/proyecto2.jpeg", alt: "Proyecto 2" },
-  { src: "@/assets/fotoCasa.jpeg", alt: "Proyecto casa" },
-  { src: "@/assets/gruas.jpeg", alt: "Proyecto gruas" },
-  { src: "@/assets/carpinteria.jpeg", alt: "Proyecto carpinteria" },
-  { src: "@/assets/proyecto1.jpg", alt: "Proyecto 1" },
-  { src: "@/assets/proyecto4.jpeg", alt: "Proyecto 4" },
-  { src: "@/assets/proyecto5.jpeg", alt: "Proyecto 5" }
+  { src: "/images/proyecto3.jpeg", alt: "Proyecto 3" },
+  { src: "/images/proyecto2.jpeg", alt: "Proyecto 2" },
+  { src: "/images/fotoCasa.jpeg", alt: "Proyecto casa" },
+  { src: "/images/gruas.jpeg", alt: "Proyecto gruas" },
+  { src: "/images/carpinteria.jpeg", alt: "Proyecto carpinteria" },
+  { src: "/images/proyecto1.jpg", alt: "Proyecto 1" },
+  { src: "/images/proyecto4.jpeg", alt: "Proyecto 4" },
+  { src: "/images/proyecto5.jpeg", alt: "Proyecto 5" }
 ];
 </script>
 

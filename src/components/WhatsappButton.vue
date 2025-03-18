@@ -33,13 +33,7 @@
   }
   
   .whatsapp-button:hover {
-    transform: scale(1.1); /* Agranda el botón ligeramente al pasar el cursor */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
   }
-  
-  /* Botón responsivo para pantallas más pequeñas */
-
-  
-    
-  
   </style>

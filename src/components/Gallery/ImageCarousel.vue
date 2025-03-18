@@ -16,7 +16,7 @@ const props = defineProps({
 const resolvedImages = computed(() => {
   return props.images.map(image => {
     return {
-      src: image.src.startsWith("@/") ? new URL(image.src.replace("@/", "/src/"), import.meta.url).href : image.src,
+      src: image.src,
       alt: image.alt
     };
   });
@@ -35,6 +35,6 @@ const resolvedImages = computed(() => {
 }
 
 .carousel-image:hover {
-  transform: scale(1.05); /* Efecto de zoom */
+  transform: scale(1.05);
 }
 </style>

@@ -17,10 +17,10 @@
   .banner-container {
     padding: 0;
     margin: 0;
-    width: 100%; /* Ocupa todo el ancho de la pantalla */
-    height: 100vh; /* Ocupa toda la altura de la pantalla */
-    background: url('@/assets/proyecto5.jpeg') no-repeat center center;
-    background-size: cover; /* La imagen cubre todo el espacio */
+    width: 100%; 
+    height: 100vh; 
+    background: url('images/proyecto5.jpeg') no-repeat center center;
+    background-size: cover; 
     
   }
   
@@ -28,7 +28,7 @@
     height: 100%;
     color: #fff;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido para el texto */
+    background: rgba(0, 0, 0, 0.5);
   }
   
   .banner-text h1 {

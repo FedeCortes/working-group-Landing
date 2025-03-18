@@ -5,7 +5,7 @@
       Tenemos todo lo que necesitás para tus proyectos, ya sea construir, refaccionar o diseñar.
     </p>
     <v-row dense>
-      <v-col v-for="service in services" :key="service.title" cols="12" md="4" class="service-item">
+      <v-col v-for="(service, index) in services" :key="index" cols="12" md="4" class="service-item">
         <ServiceCard :service="service" />
       </v-col>
     </v-row>
@@ -19,49 +19,50 @@ const services = [
   {
     title: "Construcción de Puente Grúas",
     description: "Construcción de puentes grúa en todo tipo de material estructural y armado de planos y factores de potencia.",
-    image: "@/assets/gruas.jpeg"
+    image: "/images/gruas.jpeg" 
   },
   {
     title: "Herrería y Aluminio",
     description: "Soldaduras, escaleras, techos traslúcidos, balcones, barandas y proyectos especiales.",
-    image: "@/assets/proyecto1.jpg"
+    image: "/images/proyecto1.jpg"
   },
   {
     title: "Carpintería y Mobiliarios",
     description: "Fabricación de muebles, pérgolas, decks y arquitectura interior.",
-    image: "@/assets/carpinteria.jpeg"
+    image: "/images/carpinteria.jpeg"
   },
   {
     title: "Electricidad",
     description: "Instalación de sistemas eléctricos, cableado de redes, CCTV y más.",
-    image: "@/assets/electricidad.jpeg"
+    image: "/images/electricidad.jpeg"
   },
   {
     title: "Plomería y Gas",
     description: "Remoción e instalación de cañerías de agua y gas.",
-    image: "@/assets/plomeria.png"
+    image: "/images/plomeria.png"
   },
   {
     title: "Techos",
     description: "Construcción y reparación de techos en madera, metálicos, losas, zinguería e impermeabilización.",
-    image: "@/assets/techos.jpeg"
+    image: "/images/techos.jpeg"
   },
   {
     title: "Piscinas",
     description: "Construcción, reparación e impermeabilización de piletas, además de instalación de sistemas de filtrado y mantenimiento.",
-    image: "@/assets/proyecto2.jpeg"
+    image: "/images/proyecto2.jpeg"
   },
   {
     title: "Pisos industriales",
     description: "Diseñamos y construimos pisos industriales de alta resistencia, ideales para fábricas, depósitos y talleres.",
-    image: "@/assets/pisosIndustriales.jpeg"
+    image: "/images/pisosIndustriales.jpeg"
   },
   {
     title: "Pisos epóxicos",
     description: "Instalamos pisos epóxicos con terminaciones modernas, ideales para hogares, oficinas y comercios.",
-    image: "@/assets/pisosEpoxicos.jpeg"
+    image: "/images/pisosEpoxicos.jpeg"
   }
 ];
+
 </script>
 
 <style scoped>

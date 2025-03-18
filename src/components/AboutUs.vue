@@ -19,7 +19,7 @@
       </v-col>
       <v-col cols="12" md="4" lg="3">
         <v-img
-          src="@/assets/fotoCasa.jpeg"
+          src="/images/fotoCasa.jpeg"
           alt="Sobre Nosotros"
           class="about-us-image"
           contain
@@ -51,7 +51,7 @@
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 20px;
-  max-width: 600px; /* Limita el ancho del texto */
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }

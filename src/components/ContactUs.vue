@@ -5,7 +5,6 @@
         Estamos disponibles para ayudarte. Contáctanos a través de los siguientes medios:
       </p>
       <v-row justify="center" align="center">
-        <!-- Botón de WhatsApp -->
         <v-col cols="12" sm="6" md="3" class="contact-item">
           <v-card class="contact-card">
             <v-card-title>
@@ -32,7 +31,6 @@
           </v-card>
         </v-col>
   
-        <!-- Botón de Instagram -->
         <v-col cols="12" sm="6" md="3" class="contact-item">
           <v-card class="contact-card">
             <v-card-title>
@@ -51,7 +49,6 @@
           </v-card>
         </v-col>
   
-        <!-- Botón de Correo -->
         <v-col cols="12" sm="6" md="3" class="contact-item">
           <v-card class="contact-card">
             <v-card-title>
