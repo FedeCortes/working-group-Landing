@@ -1,24 +1,17 @@
 <template>
   <v-app>
-    <!-- Header -->
     <Header></Header>
 
-    <!-- Banner -->
     <BannerHome></BannerHome>
 
-    <!-- About us -->
     <AboutUs></AboutUs>
     
-    <!-- Services -->
     <Services></Services>
 
-    <!-- Gallery -->
     <Gallery></Gallery>
 
-    <!-- Contact us -->
     <ContactUs></ContactUs>
 
-    <!-- Whatsapp button -->
     <WhatsappButton></WhatsappButton>
   </v-app>
 </template>
@@ -27,9 +20,9 @@
 import Header from './Header.vue';
 import BannerHome from './BannerHome.vue';
 import AboutUs from './AboutUs.vue';
-import Services from './Services.vue';
+import Services from './Services/Services.vue';
+import Gallery from './Gallery/Gallery.vue';
 import ContactUs from './ContactUs.vue';
-import Gallery from './Gallery.vue';
 import WhatsappButton from './WhatsappButton.vue';
 
 </script>

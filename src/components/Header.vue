@@ -1,11 +1,9 @@
 <template>
     <v-app-bar app color="primary" dark>
-      <!-- Logo -->
       <v-app-bar-title class="logo">
         Working Group
       </v-app-bar-title>
   
-      <!-- Menú centrado en pantallas grandes -->
       <v-container
         v-if="!isMobile"
         class="d-none d-md-flex justify-center menu-container"
@@ -17,7 +15,6 @@
         <v-btn text href="#contact" class="menu-item">Contacto</v-btn>
       </v-container>
   
-      <!-- Menú hamburguesa para pantallas pequeñas -->
       <v-menu offset-y v-if="isMobile" class="d-flex d-md-none">
         <template #activator="{ props }">
           <v-btn icon v-bind="props">
@@ -51,8 +48,8 @@
   export default {
     name: "Header",
     setup() {
-      const { mdAndDown } = useDisplay(); // Detecta si el tamaño de pantalla es "md" o más pequeño
-      const isMobile = mdAndDown; // Reactivo: true si es móvil, false si es pantalla grande
+      const { mdAndDown } = useDisplay(); 
+      const isMobile = mdAndDown;
   
       return { isMobile };
     },
@@ -60,7 +57,6 @@
   </script>
   
   <style scoped>
-  /* Centramos los elementos y ajustamos el diseño */
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
