@@ -1,5 +1,5 @@
 <template>
-  <v-container px-4 fluid >
+  <v-container id="gallery">
     <h2 class="gallery-title">Galería</h2>
     <p class="gallery-subtitle">Explora algunos de nuestros proyectos destacados:</p>
     
