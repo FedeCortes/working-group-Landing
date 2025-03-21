@@ -60,6 +60,11 @@ const services = [
     title: "Pisos epóxicos",
     description: "Instalamos pisos epóxicos con terminaciones modernas, ideales para hogares, oficinas y comercios.",
     image: "/images/pisosEpoxicos.jpeg"
+  },
+  {
+    title: "Pisos Terrazo",
+    description: "Realizamos pisos de terrazo principalmente, consultar por otras opciones.",
+    image: "/images/terrazos.jpeg"
   }
 ];
 

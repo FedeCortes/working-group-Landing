@@ -18,7 +18,8 @@ const galleryImages = [
   { src: "/images/carpinteria.jpeg", alt: "Proyecto carpinteria" },
   { src: "/images/proyecto1.jpg", alt: "Proyecto 1" },
   { src: "/images/proyecto4.jpeg", alt: "Proyecto 4" },
-  { src: "/images/proyecto5.jpeg", alt: "Proyecto 5" }
+  { src: "/images/proyecto5.jpeg", alt: "Proyecto 5" },
+  { src: "/images/pisoTerrazo.jpeg", alt: "Proyecto terrazo" },
 ];
 </script>
 
